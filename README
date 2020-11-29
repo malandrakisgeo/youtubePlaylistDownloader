@@ -1,19 +1,28 @@
-A script enabling you to download all the videos or the mp3s  of a youtube playlist. 
-The script is supposed to run within a Linux terminal, and works perfectly well on the Fedora distro.
+Do you happen to have youtube-dl, but the functionality of downloading a playlist does not properly work? 
+This script enables you  download all the videos or the mp3s of a youtube playlist regardless!
+
+It is meant to run within a Linux terminal, and works perfectly well on the Fedora distro.
+
+The ytPlaylistDownloader.js script returns to the console a list of the urls and the commands one ought to 
+run in order to download the videos of a youtube playlist as .mp4, or their sound as .mp3 . 
+
+Once the script runs, the bash fetches the returned strings as commands to be executed. 
+
+-------------------------------
+
+BROWSER INSTRUCTIONS: 
+All you have to do is open the playlist with any browser, and copy/paste
+the script in runInConsole.js in the console.
+You get a list of the links that can be pasted in your terminal therefter.
+
+-------------------------------
+
+NODEJS INSTRUCTIONS: 
 
 Prerequisites: 
 NodeJS
 youtube-dl (may be found on https://youtube-dl.org/ )
 
-
-The ytPlaylistDownloader.js script returns to the console a list of the urls and the commands one ought to 
-run in order to download the videos of a youtube playlist as .mp4, or their music as .mp3 . 
-
-Once the script runs, the bash fetches the returned strings as commands to be executed. 
-
-
-
-INSTRUCTIONS: 
 1. Open the terminal in the folder including the scripts. 
 2. Run one of the commands below: 
 
@@ -24,6 +33,7 @@ If you want to check the command list to be returned from the script, you may ru
 
 The videos/mp3s will be downloaded within the folder where the command was run.
 
+-------------------------------
 
 WARNINGS: 
 Can be useful with public playlists and public videos only. 
